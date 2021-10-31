@@ -7,7 +7,7 @@ namespace vscode
         static void Main(string[] args)
         {
             Random random = new Random();
-            Console.WriteLine("Welcome to my number guessing game! ");
+            Console.WriteLine("Welcome to my Number Guessing Game! ");
             Console.Write("Enter a number: ");
             string input = Console.ReadLine();
             int max_num = Convert.ToInt32(input);
